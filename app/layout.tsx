@@ -12,35 +12,35 @@ const montserrat = Montserrat({
   style: ["normal"],
   subsets: ["latin"],
   display: "swap",
-  variable: "--IBM",
+  variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
   title:
-    "Watfolio – Creative Next.js Developer | Animated & Scalable Web Experiences",
+    "Watfolio – Next.js Developer Portfolio | Bold, Animated Web Experiences",
   description:
-    "Watfolio by Jovan is a Niš-based Next.js developer crafting bold, animated, and high-performing web solutions using Next.js, TypeScript, Tailwind, and Framer Motion. Bringing visionary brands to life globally with seamless design and code.",
+    "Watfolio is the digital home of Jovan, a creative developer based in Niš, Serbia. Specializing in animated, scalable web experiences using Next.js, TypeScript, Tailwind CSS, and Framer Motion to bring ideas to life.",
   keywords: [
     "Next.js Developer",
-    "Front-End Developer",
-    "Next.js Portfolio",
-    "Animated Web Design",
+    "Creative Front-End Developer",
+    "Animated Websites",
     "Tailwind CSS",
-    "TypeScript Developer",
+    "TypeScript",
     "Framer Motion",
-    "Webflow Designer",
-    "Creative Web Development",
-    "Global Web Developer",
+    "Interactive UI",
+    "Personal Portfolio",
+    "Web Design Niš",
+    "Watfolio",
   ],
   openGraph: {
-    title: "Watfolio – Creative Next.js Developer & Designer",
+    title: "Watfolio – Next.js Developer Portfolio",
     description:
-      "Crafting scalable, animated web experiences with Next.js, Tailwind, and Framer Motion. Building seamless digital products that inspire and convert.",
-    url: "https://your-portfolio-url.com/",
+      "Explore Watfolio: A creative developer's portfolio built with Next.js, Tailwind, and Framer Motion. Smooth animations. Scalable design. Global impact.",
+    url: "https://www.watfolio.dev/",
     siteName: "Watfolio",
     images: [
       {
-        url: "https://your-portfolio-url.com/og-image.jpg",
+        url: "https://www.watfolio.dev/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Watfolio – Next.js Developer Portfolio Preview",
@@ -51,10 +51,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Watfolio – Creative Next.js Developer & Designer",
+    title: "Watfolio – Next.js Developer Portfolio",
     description:
-      "Next.js powered animated and scalable web experiences built to elevate your brand and engage users worldwide.",
-    images: ["https://your-portfolio-url.com/og-image.jpg"],
+      "Scalable, animated web experiences crafted with Next.js, Framer Motion & Tailwind. Built to inspire and convert.",
+    images: ["https://www.watfolio.dev/og-image.jpg"],
   },
 };
 
