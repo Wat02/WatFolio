@@ -64,14 +64,14 @@ function ContactForm() {
               <SheetContent
                 side="bottom"
                 className={clsx(
-                  "transition-all duration-300 max-w-full overflow-hidden w-full md:w-[70%]",
+                  "transition-all duration-300 max-w-full overflow-hidden w-full md:w-[70%] ",
                   isScrolled ? "h-screen" : "h-[70vh]"
                 )}
               >
                 <div ref={scrollRef} className="h-full overflow-y-auto pr-2 ">
                   <SheetHeader>
-                    <SheetTitle className="text-[3rem] w-[70%] leading-[1.1em] mt-[2rem] font-bold">
-                      Watfolio — Start your digital presence
+                    <SheetTitle className="text-[1.5rem] md:text-[3rem] w-full md:w-[70%] leading-[1.1em] mt-[2rem] font-bold">
+                      Watfolio — Launch Your Digital Presence
                     </SheetTitle>
                     <p className="text-[1rem] mt-[0.5rem] font-medium">
                       Niš, Serbia
@@ -86,9 +86,9 @@ function ContactForm() {
                     </div>
                   </SheetHeader>
 
-                  <div className="flex flex-row mt-6  space-y-4 ml-[1rem] pt-[6rem]">
+                  <div className="flex flex-row mt-6  space-y-4 ml-[1rem] pt-[1rem] md:pt-[6rem]">
                     <div>
-                      <p className="w-[50%] text-[1.3rem] leading-[1.1em] font-semibold">
+                      <p className="w-full md:w-[50%] text-[1rem] md:text-[1.3rem] leading-[1.1em] font-semibold">
                         Bringing visions to life with clean, animated, and
                         innovative web design—crafted to not just look good, but
                         to feel right, engage deeply, and leave a lasting
@@ -105,9 +105,9 @@ function ContactForm() {
                     </p>
                   </div>
 
-                  <div className="mx-auto pt-[5rem]">
+                  <div className="mx-auto pt-[5rem] pr-[1rems] ml-[1rem] pb-[3rem]">
                     <div className="flex flex-col items-start text-right md:ml-[1rem]">
-                      <h3 className="pb-[1rem] text-[1rem] leading-[1.1em] font-bold">
+                      <h3 className="pb-[1rem] text-[1rem] leading-[1.1em] font-bold  ">
                         Socials
                       </h3>
                       <Link

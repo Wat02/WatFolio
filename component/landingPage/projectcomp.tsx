@@ -57,9 +57,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </motion.div>
 
         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-          <p className="text-white text-[2.6rem] font-bold text-center uppercase w-[75%] leading-[1.1em]">
+          <p className="text-white text-[2rem] font-bold text-center uppercase w-[75%] leading-[1.1em]">
             {headline}
-            <span className="text-[#FCEF5F] font-black"> {highlight}</span>
+            <span className="text-[#E9B63A] font-black"> {highlight}</span>
           </p>
         </div>
       </div>

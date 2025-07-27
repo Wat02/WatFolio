@@ -80,10 +80,11 @@ const HeroSection: React.FC = () => {
                 <h4 className="text-[0.8rem] md:text-[1rem] leading-[1.3em] font-medium w-[95%] uppercase">
                   about
                   <span className="ml-[2rem] text-[1.2rem] md:text-[1.8rem] leading-[1.3em] lowercase">
-                    Im Jovan — the creative mind behind Watfolio, a Niš-based,
-                    globally focused studio where abstract visuals meet clean
-                    code. With 3+ years of experience, I craft bold, animated,
-                    and seamless web experiences.
+                    Im <span className="capitalize">Jovan</span> — the creative
+                    mind behind Watfolio, a Niš-based, globally focused studio
+                    where abstract visuals meet clean code. With 3+ years of
+                    experience, I craft bold, animated, and seamless web
+                    experiences.
                   </span>
                 </h4>
               </motion.div>

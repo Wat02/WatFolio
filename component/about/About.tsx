@@ -23,7 +23,7 @@ function CoreValues() {
           <div className="col-span-12 md:col-span-12 ml-[1rem] md:ml-[8rem]">
             <div className="flex flex-row">
               <motion.h4
-                className="text-[2rem] md:text-[4rem] leading-[1.1em] font-semibold pt-[4.8rem] tracking-tight"
+                className="text-[2rem] md:text-[4rem] leading-[1.1em] font-semibold pt-[4.8rem] tracking-tight mt-[2rem] md:mt-[0]"
                 variants={fadeUpVariant}
                 initial="hidden"
                 whileInView="visible"

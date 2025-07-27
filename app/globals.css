@@ -116,12 +116,26 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
 
+html::selection {
+  color: #E9B63A;
+}
+
+
 * {
   font-family: var(--IBM);
+}
+
+h4:hover {
+  color: #7C7C7C;
+  transition-property: color;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
