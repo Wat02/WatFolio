@@ -3,21 +3,21 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-[#000000] text-white pt-[5rem] relative z-10">
+    <footer className="bg-[#000000] text-white pt-[1rem] md:pt-[5rem] relative z-10">
       <div className="mx-auto px-6 md:px-16">
         <div className="flex flex-col items-end text-right md:mr-[5rem]">
           <h3 className="pb-[1rem] text-[1rem] leading-[1.1em] font-bold">
             Socials
           </h3>
           <Link
-            className="text-[3.2rem] font-semibold leading-[1.3em]"
+            className="text-[2rem] md:text-[3.2rem] font-semibold leading-[1.6em]"
             href="http://linkedin.com/in/jovan-jeremic-1252b3286"
             target="blank"
           >
             LinkedIn
           </Link>
           <Link
-            className="text-[3.2rem] font-semibold leading-[1.3em]"
+            className="text-[2rem] md:text-[3.2rem] font-semibold leading-[1.6em]"
             href="https://github.com/Wat02?tab=overview&from=2025-07-01&to=2025-07-27"
             target="blank"
           >

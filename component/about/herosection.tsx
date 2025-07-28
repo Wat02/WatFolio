@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
         <div className="grid grid-cols-12 gap-1 pt-[3rem] md:pt-[8rem]">
           <div className="col-span-12 md:col-span-12 relative pt-[15.492vw]">
             <motion.h2
-              className="absolute top-0 left-0 w-full text-[3rem] md:text-[8rem] leading-[0.95] tracking-[-0.4414vw]  z-30 pointer-events-none font-bold"
+              className="absolute top-0 left-0 w-[90%] md:w-full text-[3rem] md:text-[8rem] leading-[0.95] tracking-[-0.4414vw]  z-30 pointer-events-none font-bold"
               variants={staggerContainer}
               initial="hidden"
               animate="visible"

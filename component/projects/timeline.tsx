@@ -209,7 +209,7 @@ export default function Timeline() {
         </div>
       </div>
 
-      <div className="w-full md:w-3/4 px-6 space-y-32 py-12 scroll-smooth">
+      <div className="w-full md:w-3/4 px-6 space-y-0 md:space-y-32 pt-[1rem]  pb-[1rem] scroll-smooth">
         {timelineData.map((item, index) => (
           <section
             key={item.year}

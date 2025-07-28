@@ -60,7 +60,9 @@ function ContactForm() {
         <div className="grid grid-cols-12 gap-1">
           <div className="col-span-12">
             <Sheet>
-              <SheetTrigger>Contact</SheetTrigger>
+              <SheetTrigger className="text-[1.5rem] uppercase md:capitalize md:text-[0.9rem] leading-[1.1em] font-medium md:font-bold text-white">
+                Contact
+              </SheetTrigger>
               <SheetContent
                 side="bottom"
                 className={clsx(

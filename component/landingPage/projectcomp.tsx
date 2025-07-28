@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <Image
             src={image}
             alt="Project Image"
-            className="w-full h-full object-cover pr-[1rem] pl-[1rem] md:pr-[0rem] md:pl-[0rem]"
+            className="w-full h-full object-cover pl-[1rem]"
             priority={true}
           />
         </motion.div>

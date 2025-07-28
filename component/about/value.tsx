@@ -29,7 +29,7 @@ function Values() {
         <div className="grid grid-cols-12">
           <div className="col-span-12 md:col-span-12 flex items-end justify-end space-x-6">
             <motion.h4
-              className="text-[1.5rem] md:text-[2.5rem] leading-[1.1em] md:leading-[2.5em] font-semibold uppercase"
+              className="text-[1.rem] md:text-[2.5rem] leading-[1.1em] md:leading-[2.5em] font-semibold uppercase"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -38,7 +38,7 @@ function Values() {
               Core values
             </motion.h4>
             <motion.h4
-              className="text-[10rem] md:text-[30rem] leading-[0.8em] font-bold text-[#eaeaea] ml-[9rem]"
+              className="text-[5rem] md:text-[30rem] leading-[0.8em] font-bold text-[#eaeaea] ml-[9rem]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
