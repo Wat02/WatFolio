@@ -75,7 +75,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <p className="mr-[1rem] md:mr-[0] ml-[1rem] text-[1.2rem] leading-[1.1em] font-medium">
             {description}
           </p>
-          <div className="flex flex-row gap-3 pt-[1rem] uppercase font-bold target-black pb-[1rem] ml-[1rem] md:ml-[0rem]">
+          <div className="flex flex-row gap-3 pt-[1rem] uppercase font-bold target-black pb-[1rem] ml-[1rem]">
             <motion.div
               custom={0}
               variants={linkVariant}
